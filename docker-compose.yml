@@ -11,7 +11,7 @@ services:
       - monitoring
 
   blackbox-exporter:
-    image: prome/blackbox-exporter:latest
+    image: prom/blackbox-exporter:latest
     volumes:
       - ./blackbox.yml:/etc/blackbox_exporter/config.yml
     ports:
