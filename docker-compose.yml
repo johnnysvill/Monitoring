@@ -11,7 +11,7 @@ services:
       - monitoring
 
   blackbox-exporter:
-    image: prometheus/blackbox-exporter:latest
+    image: prome/blackbox-exporter:latest
     volumes:
       - ./blackbox.yml:/etc/blackbox_exporter/config.yml
     ports:
