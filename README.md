@@ -28,3 +28,9 @@ cd Monitoring
 ```bash
 docker-compose up -d
 ```
+5. Проверка работы:
+```bash
+Доступ к интерфейсу Prometheus: http://localhost:9090
+Доступ к Blackbox Exporter: http://localhost:9115
+```
+
